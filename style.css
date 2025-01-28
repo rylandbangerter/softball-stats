@@ -1,0 +1,72 @@
+body {
+  background-color: #f4f4f4; /* Light gray background */
+  color: #333; /* Dark text color */
+}
+
+h1 {
+  color: #6A5A45; /* Match with your hair color */
+}
+
+.video-list ul {
+  padding: 0;
+}
+
+.video-list li {
+  background: white; /* White background for list items */
+  margin: 5px 0; /* Spacing between list items */
+  padding: 10px; /* Padding inside list items */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#stats-container {
+  background: #fff; /* White background */
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+/* Ensure the buttons don't expand when the forms are displayed */
+#buttonContainer {
+  display: flex; /* Use flexbox for button layout */
+  justify-content: space-between; /* Space buttons evenly */
+  margin-bottom: 20px; /* Optional, space between buttons and forms */
+  width: 100%; /* Allow the buttons to take the full width of their container */
+  max-width: 600px; /* Set a max-width for the buttons */
+  margin: 0 auto; /* Center the button container horizontally */
+}
+
+#buttonContainer button {
+  width: 30%; /* Make buttons take 30% of the container width */
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Form container positioning */
+.form-container {
+  position: absolute; /* Allows dynamic positioning */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better appearance */
+  z-index: 1000; /* Ensures it appears above other elements */
+  display: none; /* Initially hidden */
+  width: 300px; /* Adjust based on your form size */
+}
+
+
+
+/* Optional: Styling for form fields */
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+/* Optional: Button styles */
+button {
+  padding: 10px;
+  font-size: 16px;
+}
